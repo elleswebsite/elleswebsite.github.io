@@ -2,4 +2,18 @@
 	width: 100%;
 	height: 400px;
 	background-color: #292929;
+	background-image: url('images/blue-banner.jpg')
+}
+
+.title-header{
+	color: #ffffff;
+	text-align: center;
+	padding: 150px 0px 0px 0px;
+
+}
+
+.card-deck {
+
+    padding: 100px;
+
 }
