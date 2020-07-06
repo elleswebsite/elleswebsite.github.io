@@ -32,7 +32,11 @@ html, body {
 	}
 
 	.title {
-		font-size: 84px;
+		font-size: 60px;
+		color: #636b6f;
+		font-weight: 400;
+		padding: 300px 0px 0px 0px;
+		font-family: 'Raleway', sans-serif;
 	}
 
 	.links > a {
