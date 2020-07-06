@@ -1,63 +1,50 @@
-.container-head{
-	width: 100%;
-	height: 400px;
-	background-color: #e3e3e3;
-	/*background-image: url('images/blue-bg.jpg');*/
-}
+html, body {
+		background-color: #fff;
+		color: #636b6f;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 100;
+		height: 100vh;
+		margin: 0;
+	}
 
-.title-header{
-	color: #ffffff;
-	text-align: center;
-	padding: 150px 0px 0px 0px;
+	.full-height {
+		height: 100vh;
+	}
 
-}
+	.flex-center {
+		align-items: center;
+		display: flex;
+		justify-content: center;
+	}
 
-.title-skills{
-	color: #ffffff;
-	text-align: center;
-	padding: 5px;
-	
-}
+	.position-ref {
+		position: relative;
+	}
 
-.title-skills-container{
-	border-bottom: 50px solid #289ad6;
-	border-right: 30px solid transparent;
-	width: 30%;
-	height: 0;
-	padding: 20px 0px 0px 0px;
-}
+	.top-right {
+		position: absolute;
+		right: 10px;
+		top: 18px;
+	}
 
+	.content {
+		text-align: center;
+	}
 
+	.title {
+		font-size: 84px;
+	}
 
-.card-deck {
+	.links > a {
+		color: #636b6f;
+		padding: 0 25px;
+		font-size: 12px;
+		font-weight: 600;
+		letter-spacing: .1rem;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
 
-	   padding: 100px;
-   
-
-}
-
-.links > a {
-	color: #636b6f;
-	padding: 50px 0px 0px 0px;
-	font-size: 12px;
-	font-weight: 600;
-	letter-spacing: .1rem;
-	text-decoration: none;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-
-@media only screen and (max-width: 1240px){
-
-.card-deck {
- padding: 100px 50px 100px 50px; 
-
-}
-.title-skills-container{
-width: 100%;
-}
-
-
-
-}
+	.m-b-md {
+		margin-bottom: 30px;
+	}
