@@ -35,7 +35,7 @@ html, body {
 		font-size: 75px;
 		color: #636b6f;
 		font-weight: 400;
-		padding: 300px 0px 0px 0px;
+		padding: 150px 0px 0px 0px;
 		font-family: 'Raleway', sans-serif;
 	}
 
@@ -84,4 +84,12 @@ html, body {
 	  .ml11 .letter {
 		display: inline-block;
 		line-height: 1em;
+	  }
+
+
+	  @media only screen and (min-width: 1024px){
+	.title{
+		padding: 300px 0px 0px 0px;
+	}
+
 	  }
